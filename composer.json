@@ -1,23 +1,17 @@
 {
-    "name": "akaunting/laravel-debugbar-collector",
-    "description": "Laravel Debugbar collector package for Akaunting",
+    "name": "arrocy/laravel-debugbar-collector",
+    "description": "Laravel Debugbar collector package for Arrocy",
     "keywords": [
-        "akaunting",
+        "arrocy",
         "laravel",
         "debugbar"
     ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Denis Duliçi",
-            "email": "info@akaunting.com",
-            "homepage": "https://akaunting.com",
-            "role": "Developer"
-        },
-        {
-            "name": "Sevan Nerse",
-            "email": "sevan@akaunting.com",
-            "homepage": "https://akaunting.com",
+            "name": "Arrocy",
+            "email": "info@arrocy.com",
+            "homepage": "https://arrocy.com",
             "role": "Developer"
         }
     ],
@@ -31,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Akaunting\\DebugbarCollector\\": "src"
+            "Arrocy\\DebugbarCollector\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Akaunting\\DebugbarCollector\\Tests\\": "tests"
+            "Arrocy\\DebugbarCollector\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Akaunting\\DebugbarCollector\\Provider"
+                "Arrocy\\DebugbarCollector\\Provider"
             ]
         }
     }
