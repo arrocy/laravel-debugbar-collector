@@ -1,0 +1,50 @@
+{
+  "name": "arrocy/laravel-debugbar-collector",
+  "description": "Laravel Debugbar collector package for Arrocy",
+  "keywords": [
+    "arrocy",
+    "laravel",
+    "debugbar"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arrocy",
+      "email": "info@arrocy.com",
+      "homepage": "https://arrocy.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "barryvdh/laravel-debugbar": ">=3.6"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.4|^8.0|^9.0|^10.0",
+    "phpunit/phpunit": "^9.5|^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Arrocy\\DebugbarCollector\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Arrocy\\DebugbarCollector\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Arrocy\\DebugbarCollector\\Provider"
+      ]
+    }
+  }
+}
